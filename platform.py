@@ -181,7 +181,7 @@ def safe_copy_directory(src: Union[str, Path], dst: Union[str, Path]) -> bool:
     return True
 
 
-class Espressif32Platform(PlatformBase):
+class PioArduinoPlatform(PlatformBase):
     """ESP32 platform implementation for PlatformIO with optimized toolchain management."""
 
     def __init__(self, *args, **kwargs):
